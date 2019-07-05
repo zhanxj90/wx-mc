@@ -1,0 +1,17 @@
+<view>
+  <view class='search'>
+    <input placeholder="请输入您要查找的内容" bindinput='searchInfo' value='{{val}}' />
+    <text bindtap='toSearch'>搜索</text>
+  </view>
+  <block wx:for='{{list}}' wx:key='{{index}}'>
+  <view class='search_info' bindtap='toDetail' data-id='{{item.id}}'>
+    <view>
+      {{item.add}}
+    </view>
+    <view>
+      {{item.des}}
+    </view>
+  </view>
+  </block>
+  
+</view>

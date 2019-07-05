@@ -1,0 +1,13 @@
+<view>
+{{detail.address}}
+</view>
+<view class='detail'>
+<image src="{{detail.img}}" />
+<text>{{detail.type}}</text>
+</view>
+<view>
+{{detail.des}}
+</view>
+<view>
+{{detail.tel}}
+</view>

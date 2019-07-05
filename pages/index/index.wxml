@@ -1,0 +1,20 @@
+<view class='map'>
+  <map 
+    id="map" 
+    longitude="{{longitude}}" 
+    latitude="{{latitude}}" 
+    scale="14" 
+    controls="{{controls}}" 
+    bindcontroltap="controltap" 
+    markers="{{markers}}" 
+    bindmarkertap="markertap" 
+    polyline="{{polyline}}" 
+    bindregionchange="regionchange"
+    show-location >
+  </map>
+</view>
+
+<view class='tabBar'>
+  <view class='publish' bindtap='toPublish'>发布</view>
+  <view class='search' bindtap='toSearch'>搜索</view>
+</view>

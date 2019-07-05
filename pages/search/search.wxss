@@ -1,0 +1,36 @@
+.search{
+  display: flex;
+  justify-content: space-around;
+  height: 80rpx;
+  align-items: center;
+  background-color: #03bbd5;
+}
+.search>input{
+  height: 60rpx;
+  width: 80%;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+  padding: 0 10rpx;
+  border-radius: 10rpx;
+}
+.search>text{
+  color: #fff;
+  font-size: 32rpx;
+}
+
+.search_info{
+  padding:20rpx 40rpx 20rpx 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.search_info>view{
+  font-size: 30rpx;
+  line-height: 50rpx;
+}
+.search_info>view:nth-child(1){
+  color: #ff9700;
+}
+.search_info>view:nth-child(2){
+  color: #666;
+}

@@ -1,0 +1,41 @@
+.publish_info{
+  width: 100%;
+  line-height: 40rpx; 
+  min-height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ccc;
+  font-size: 30rpx;
+  border-bottom: 1px solid #f3f3f3;
+  background-color: #fff;
+}
+.publish_info>label{
+  min-width: 200rpx;
+  padding-left: 20rpx;
+}
+.placeholder{
+  color: #ccc;
+}
+.publish{
+  width: 96%;
+  margin-top: 22rpx;
+  background: #ff9700;
+  color: #fff;
+}
+
+.success_info{
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.success_info>icon{
+  margin-bottom: 30rpx;
+}
+.homeTo{
+  width: 96%;
+  background: #ff9700;
+  color: #fff;
+}

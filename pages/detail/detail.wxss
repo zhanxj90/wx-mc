@@ -1,0 +1,19 @@
+view{
+  min-height: 100rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  line-height: 60rpx;
+  width: 100%;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+.detail {
+  display: flex;
+  align-items: center;
+}
+view>image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
